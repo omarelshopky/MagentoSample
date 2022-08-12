@@ -1,0 +1,20 @@
+{
+  "name": "cma-sample-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aleksandrs Rivkinds <ejnshtein@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@scandipwa/magento-scripts": "^1.15.6"
+  },
+  "scripts": {
+    "start": "magento-scripts start",
+    "stop": "magento-scripts stop",
+    "import-db": "magento-scripts import-db",
+    "link": "magento-scripts link",
+    "exec": "magento-scripts exec",
+    "logs": "magento-scripts logs",
+    "status": "magento-scripts status",
+    "cli": "magento-scripts cli"
+  }
+}
