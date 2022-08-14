@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,24,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.banner-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
