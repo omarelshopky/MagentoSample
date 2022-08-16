@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <referenceContainer name="header.container">
-        <container name="freeshipping.container" label="Free shipping banner Container" htmlTag="div" htmlClass="banner freeshipping-banner" before="-">
-            <block name="freeshipping.block.banner" as="freeshipping-banner" template="DarkTech_FreeShippingBanner::banner.phtml"/>
-        </container>
-    </referenceContainer>
+    <body>
+        <referenceContainer name="header.container">
+            <container name="freeshipping.container" label="Free shipping banner Container" htmlTag="div" htmlClass="banner freeshipping-banner" before="-">
+                <block name="freeshipping.block.banner" as="freeshipping-banner" template="DarkTech_FreeShippingBanner::banner.phtml" ifconfig="carriers/freeshipping/active"/>
+            </container>
+        </referenceContainer>
+    </body>
 </page>
